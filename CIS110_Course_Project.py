@@ -34,8 +34,22 @@ while leaveThezoo.lower() != "yes" and leaveThezoo() != "no":
     leaveThezoo = input("It is a Yes or No question:  ")
 
 
-if leaveThezoo == "yes": 
+if leaveThezoo.lower() == "yes": 
     print(f"\n{name} makes his BIG break! He makes his way around {location} to check out the view. ")
     print(f"{name} the turtle begins to roam the city and runs into a little {color} compass that points him in the way he plans to go. ")
-    print(f" So {name} keep the compass because 
+    print(f" So {name} keep the compass because he felt a connection to it. ")
+    print(f"{name} follows the compass and it points towards a waterpark. ")
+    print(f"He sees a huge sign that reads {location} WaterParkk! and he heads over. ")
+
+else:
+    print(f"\n{name} the turtle decides to stay in the {location} Zoo.")
+    print(f" The other turtles begin to gang up on him. {name} is well known in the area and has a bad reputation. ")
+    print(f"{name} holds his ground because he no longer wants to be a menace. ")
+    print(f"The tutle begins to feel {emotion} and goes off to lay by the pond with the other unmarried turtles. ")
+
+
+if 
+
+
+    
 
