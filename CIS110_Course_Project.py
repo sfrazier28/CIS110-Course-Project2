@@ -4,6 +4,7 @@ print(f"First, lets get some details from you..")
 print(f"Make sure to press 'Enter' after your responses")
 input(f"\nPress the enter key to continue...")
 
+
 color = input("\nWhat is your least favorite secondary color:  ")
 while color.lower() not in ["purple", "orange", "green"]:
     color = input("That is not a secondary color, try again:  ")
@@ -20,4 +21,21 @@ emotion = input("\nWhat is your current mood:  ")
 while emotion.lower() not in ["happy" , "sad" , "angry" , "excited" , "bored" , "mad"] :
     emotion = input("Keep it simple. Are you happy, mad, excited or angry:  ")
 
+
 print(f"Let us begin")
+print(f"\nThere once lived a {color} turtle named {name}. ")
+print(f"{name} currently lives at the {location} zoo. ")
+print(f"Over the past {age} years {name} has had many fights and arguments with the other turtles. ")
+print(f"{name} WANTS OUT! ")
+print(f"{name} plans to leave in 15 minutes during the next enclosure cleaning. ")
+
+leavethezoo = input(f"\nDo you think {name} the turtle should leave the {location} Zoo? Type Yes or No:  ")
+while leaveThezoo.lower() != "yes" and leaveThezoo() != "no":
+    leaveThezoo = input("It is a Yes or No question:  ")
+
+
+if leaveThezoo == "yes": 
+    print(f"\n{name} makes his BIG break! He makes his way around {location} to check out the view. ")
+    print(f"{name} the turtle begins to roam the city and runs into a little {color} compass that points him in the way he plans to go. ")
+    print(f" So {name} keep the compass because 
+
