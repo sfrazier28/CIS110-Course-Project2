@@ -30,7 +30,7 @@ print(f"{name} WANTS OUT! ")
 print(f"{name} plans to leave in 15 minutes during the next enclosure cleaning. ")
 
 leavethezoo = input(f"\nDo you think {name} the turtle should leave the {location} Zoo? Type Yes or No:  ")
-while leaveThezoo.lower() != "yes" and leaveThezoo() != "no":
+while leaveThezoo.lower() != "yes" and leaveThezoo.lower() != "no":
     leaveThezoo = input("It is a Yes or No question:  ")
 
 
@@ -47,8 +47,10 @@ else:
     print(f"{name} holds his ground because he no longer wants to be a menace. ")
     print(f"The tutle begins to feel {emotion} and goes off to lay by the pond with the other unmarried turtles. ")
 
+print(f"While relaxing and roaming {name} the {color} turtle feels like continuing the journey. ")
+print(f"It is time to make the final choice. ")
 
-if 
+
 
 
     
