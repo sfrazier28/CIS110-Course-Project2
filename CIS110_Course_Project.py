@@ -72,6 +72,24 @@ else:
     print(f"He end up sad and alone no one want to play with him or speak to him. ")
     print(f"The turtle spends another {age} years in the {location} Zoo and dies and never finds a spouse. ")
 
+if leaveThezoo.lower() == "yes" and turtleNewlife.lower() == "yes":
+    print(f"\n{name} fixes his life. ")
+    print(f"He ends up finding a wife and has {age} baby turtles. ")
+    print(f"{name} The Turtle Lives Happily Ever After! ")
+elif leaveThezoo.lower() == "no" and turtleNewlife.lower() == "no":
+    print(f"\n{name} the turtle never fixes his life. ")
+    print(f"The turtle got stuck in the {emotion} and never saw past it. ")
+    print(f"{name} ends up losing his vibrant {color} color and withers away. ")
+else:
+    print(f"\nAfter enjoying his time in {location} the turtle decides to carry on. ")
+    print(f"He's tired of the way his life has been going and just wants to feel {color} and {emotion} again. ")
+    print(f"Another {age} years go by and now is up in age. ")
+    print(f"{name} the Great Turtle looks back over his life and feels {emotion} about all of the choices he had to make. ")
+    print(f"\nThe END!")
+
+
+
+
 
 
 
