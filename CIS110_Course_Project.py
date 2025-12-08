@@ -87,6 +87,13 @@ else:
     print(f"{name} the Great Turtle looks back over his life and feels {emotion} about all of the choices he had to make. ")
     print(f"\nThe END!")
 
+keepGoing = input(f"\nWould you like another story? Enter yes or no:  ")
+while keepGoing.lower() != "yes" and keepGoing.lower() != "no":
+    keepGoing = input(f"Invalid! Enter yes or no:  ")
+
+
+
+
 
 
 
