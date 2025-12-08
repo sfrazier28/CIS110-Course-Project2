@@ -29,8 +29,11 @@ print(f"Over the past {age} years {name} has had many fights and arguments with 
 print(f"{name} WANTS OUT! ")
 print(f"{name} plans to leave in 15 minutes during the next enclosure cleaning. ")
 
-leavethezoo = input(f"\nDo you think {name} the turtle should leave the {location} Zoo? Type Yes or No:  ")
+
+leaveThezoo = input("Do you think the turtle should leave the Zoo? Type Yes or No:  ")
+
 while leaveThezoo.lower() != "yes" and leaveThezoo.lower() != "no":
+    print("Please enter Yes or No")
     leaveThezoo = input("It is a Yes or No question:  ")
 
 
@@ -39,7 +42,7 @@ if leaveThezoo.lower() == "yes":
     print(f"{name} the turtle begins to roam the city and runs into a little {color} compass that points him in the way he plans to go. ")
     print(f" So {name} keep the compass because he felt a connection to it. ")
     print(f"{name} follows the compass and it points towards a waterpark. ")
-    print(f"He sees a huge sign that reads {location} WaterParkk! and he heads over. ")
+    print(f"He sees a huge sign that reads {location} WaterPark! and he heads over. ")
 
 else:
     print(f"\n{name} the turtle decides to stay in the {location} Zoo.")
@@ -48,7 +51,28 @@ else:
     print(f"The tutle begins to feel {emotion} and goes off to lay by the pond with the other unmarried turtles. ")
 
 print(f"While relaxing and roaming {name} the {color} turtle feels like continuing the journey. ")
-print(f"It is time to make the final choice. ")
+print(f"It is time to make the next choice. ")
+
+turtleNewlife = input("Should the turtle begin to fix his reputation? Type Yes or No:  ")
+
+while turtleNewlife.lower() != "yes" and turtleNewlife.lower() != "no":
+    print("Please just answer Yes or No")
+    turtleNewlife = input(f"It is a Yes or No question:  ")
+
+
+if turtleNewlife.lower() == "yes":
+    print(f"\n{name} the turtle thinks its better off to be the bigger turtle. ")
+    print(f"{name} decides to do {age} laps around the entire zoo every day for the next 100 days. ")
+    print(f"After this time is up {name} finds his inner self and becomes the nicest turtle in entire {location} zoo. ")
+    print(f"{name} begins to be kind to others and brings joy into the other turtles lives. ")
+
+
+else:
+    print(f"\n{name} remains in the {emotion} state and continues to be a menace in other turtles lifes. ")
+    print(f"He end up sad and alone no one want to play with him or speak to him. ")
+    print(f"The turtle spends another {age} years in the {location} Zoo and dies and never finds a spouse. ")
+
+
 
 
 
